@@ -114,3 +114,36 @@ h2 {
   border-radius: 10px;
   box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.3);
 }
+
+@media screen and (max-width: 360px) {
+  .container {
+    width: 340px;
+  }
+  .list {
+    width: 290px;
+  }
+  .display {
+    width: 290px;
+    font-size: 18px;
+  }
+  .todolist {
+    width: 290px;
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .credit {
+    width: 290px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .desc {
+    font-size: 15px;
+  }
+  .guide {
+    width: 290px;
+    font-size: 15px;
+  }
+}
